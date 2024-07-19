@@ -194,7 +194,7 @@ export class FirefoxLauncher extends BrowserLauncher {
 
   override executablePath(): string {
     // replace 'latest' placeholder with actual downloaded revision
-    if (this.puppeteer.browserRevision === 'latest') {
+    if (this.puppeteer.browserVersion === 'latest') {
       const cache = new Cache(this.puppeteer.defaultDownloadPath!);
       const installedFirefox = cache.getInstalledBrowsers().find(browser => {
         return (
