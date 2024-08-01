@@ -20,6 +20,33 @@ All notable changes to this project will be documented in this file. See [standa
   * dependencies
     * @puppeteer/browsers bumped from 1.5.1 to 1.6.0
 
+## [23.0.0](https://github.com/puppeteer/puppeteer/compare/puppeteer-core-v22.15.0...puppeteer-core-v23.0.0) (2024-08-01)
+
+
+### ⚠ BREAKING CHANGES
+
+* rename ignoreHttpsErrors to acceptInsecureCerts ([#12756](https://github.com/puppeteer/puppeteer/issues/12756))
+* rename product to browser ([#12757](https://github.com/puppeteer/puppeteer/issues/12757))
+* default to WebDriver BiDi for Firefox ([#12732](https://github.com/puppeteer/puppeteer/issues/12732))
+* replace dynamic imports with static dependency injection ([#12710](https://github.com/puppeteer/puppeteer/issues/12710))
+* remove whitespace normalization from a11y selectors ([#12693](https://github.com/puppeteer/puppeteer/issues/12693))
+
+### Features
+
+* default to WebDriver BiDi for Firefox ([#12732](https://github.com/puppeteer/puppeteer/issues/12732)) ([6422dc2](https://github.com/puppeteer/puppeteer/commit/6422dc230aa4205e9ca1aada47cf46f0a44f0bb3))
+* rename ignoreHttpsErrors to acceptInsecureCerts ([#12756](https://github.com/puppeteer/puppeteer/issues/12756)) ([04e2263](https://github.com/puppeteer/puppeteer/commit/04e2263d4bfeb6ad396a4312c79b502a73b35e31))
+* rename product to browser ([#12757](https://github.com/puppeteer/puppeteer/issues/12757)) ([ca82e8e](https://github.com/puppeteer/puppeteer/commit/ca82e8e070dd1ddb627d034888782133d8cad49c))
+
+
+### Bug Fixes
+
+* remove whitespace normalization from a11y selectors ([#12693](https://github.com/puppeteer/puppeteer/issues/12693)) ([d5f9a33](https://github.com/puppeteer/puppeteer/commit/d5f9a333c1d2052f41bdcd0ad773f5dbb202ef09))
+
+
+### Code Refactoring
+
+* replace dynamic imports with static dependency injection ([#12710](https://github.com/puppeteer/puppeteer/issues/12710)) ([3aacc1c](https://github.com/puppeteer/puppeteer/commit/3aacc1c80792dee34ebbaa3cbf9d32d2baf2b139))
+
 ## [22.15.0](https://github.com/puppeteer/puppeteer/compare/puppeteer-core-v22.14.0...puppeteer-core-v22.15.0) (2024-07-31)
 
 
